@@ -1,0 +1,111 @@
+.searchbox{
+    width: 50%;
+    height: 75px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    z-index: 1;
+    border-radius: 50px;
+    border: 1px solid #000;
+    display: grid;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .locationbox{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1;
+  }
+  .form-control{
+    border-radius: 20px;
+  }
+
+  .roundbox{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fa0;
+  }
+
+  .makethiscenter{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn{
+    width: 100%;
+    border-radius: 20px;
+  }
+/* YourNewStyles.css */
+
+.searchbox {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .directions-selector {
+    margin-bottom: 20px;
+  }
+
+  .sens-selector {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .sens-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #087485;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 18px;
+    flex: 1;
+  }
+
+  .sens-option.active {
+    background-color: #0a9172;
+  }
+
+  .sens-option img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .bus-selector select {
+    width: 23%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  .bus-selector select:hover {
+    border-color: #999;
+  }
+
+  .bus-selector select:focus {
+    border-color: #555;
+  }
